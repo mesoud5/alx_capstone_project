@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+#upper-logo { 
+    width: 180px;
+}
+#upper-nav {
+    display: flex;
+    margin-bottom: 150px; 
+    font-size: xx-large; 
+}
+#upper-nav a {
+    margin-left: 25px;
+}
+main {
+    font-style: italic;
+    font-size: xx-large;
+}
+footer {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 210px;  
+}
+#lower-logo {
+    width: 180px;
+}
+
+

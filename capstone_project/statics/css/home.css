@@ -1,3 +1,11 @@
+body {
+    background-image: url(/capstone_project/statics/images/back2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 10px;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -12,10 +20,12 @@ header {
 }
 #upper-nav a {
     margin-left: 25px;
+    color: aliceblue;
 }
 main {
     font-style: italic;
     font-size: xx-large;
+    color: silver;
 }
 footer {
     display: flex;
@@ -24,6 +34,24 @@ footer {
 }
 #lower-logo {
     width: 180px;
+}
+#lower-nav a {
+    color: aliceblue;  
+    margin-left: 20px;
+}
+#copy-right{
+    justify-content: center;
+}
+
+#foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+
+#copy-right {
+    margin-bottom: auto /* Pushes the second paragraph to the bottom */
 }
 
 

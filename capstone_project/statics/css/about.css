@@ -1,10 +1,11 @@
 body {
-    background-image: url('../images/Image\ 1.png');
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: #fff;
+    color: silver;
     padding: 10px;
+    
 }
 header {
     display: flex;
@@ -20,13 +21,13 @@ header {
 }
 #upper-nav a {
     margin-left: 25px;
-    color: aliceblue;
+    color: gray;
     text-decoration: none;
     transition: transform 0.3s;
 }
 #upper-nav a:hover {
     transform: scale(1.2);
-    color: palevioletred;
+    color: black;
 }
 main {
     font-style: italic;
@@ -62,6 +63,7 @@ footer {
 
 #copy-right {
     margin-bottom: auto; /* Pushes the second paragraph to the bottom */
+    color: gray;
 }
 #insta {
     width: 29px;
@@ -75,3 +77,25 @@ footer {
     width: 29px;
     height: 29px; 
 }
+
+/* style for the main page*/
+#main {
+    display: flex;
+    width: 100%;
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+
+    color: silver;
+}
+
+
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+

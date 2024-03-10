@@ -21,6 +21,12 @@ header {
 #upper-nav a {
     margin-left: 25px;
     color: aliceblue;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+#upper-nav a:hover {
+    transform: scale(1.2);
+    color: palevioletred;
 }
 main {
     font-style: italic;
@@ -32,12 +38,15 @@ footer {
     justify-content: space-between; 
     margin-top: 210px;  
 }
-#lower-logo {
-    width: 180px;
-}
+
 #lower-nav a {
     color: aliceblue;  
     margin-left: 20px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+#lower-nav a:hover {
+    transform: scale(1.2);
 }
 #copy-right{
     justify-content: center;
@@ -48,10 +57,21 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 550px;
 }  
 
 #copy-right {
-    margin-bottom: auto /* Pushes the second paragraph to the bottom */
+    margin-bottom: auto; /* Pushes the second paragraph to the bottom */
 }
-
-
+#insta {
+    width: 29px;
+    height: 29px;
+}
+#linkedin {
+    width: 29px;
+    height: 29px;
+}
+#discord {
+    width: 29px;
+    height: 29px; 
+}

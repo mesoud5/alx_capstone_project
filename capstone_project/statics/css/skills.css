@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+}
+
+#nav-links {
+    display: flex;
+}
+
+#nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+#nav-links a:hover {
+    text-decoration-line: underline;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+aside {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 47px;
+}
+/*  CSS for the progress bars */
+.skill {
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #333;
+    transition: width 1s ease-in-out;
+}
+
+/*  CSS to animate the progress bars */
+@keyframes animateProgress {
+    from { width: 0; }
+}
+
+.skill.animated .progress-bar {
+    animation: animateProgress 1s forwards;
+}

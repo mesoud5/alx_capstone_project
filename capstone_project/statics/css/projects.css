@@ -26,6 +26,9 @@ header {
     text-decoration: none;
     margin-right: 20px;
 }
+#upper-nav a:hover {
+    text-decoration-line: underline;
+}
 
 main {
     display: flex;

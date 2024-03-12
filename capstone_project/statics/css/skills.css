@@ -1,12 +1,31 @@
 body {
-    background-color: #f0f0f0;
+    background-image: url('../images/');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Apply blur effect to article and aside */
+
+main aside {
+    background: rgba(255, 255, 255, 0.6); /* Adjust the opacity as needed */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    padding: 20px;
+}
+main article {
+    background: rgba(255, 255, 255, 0.6); /* Adjust the opacity as needed */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    padding: 20px;
+
+}
+main article{
+   margin-right: 10px;
+}
 header {
-    background-color: #333;
+   /* background-color: #333;*/
     color: #fff;
     padding: 20px;
     display: flex;
@@ -41,18 +60,18 @@ main {
 
 article {
     width: 50%;
-    background-color: #fff;
+    color: black;
     padding: 20px;
 }
 
 aside {
     width: 50%;
-    background-color: #fff;
+    color: black;
     padding: 20px;
 }
 
 footer {
-    background-color: #333;
+    /*background-color: #333;*/
     color: #fff;
     padding: 20px;
     text-align: center;

@@ -1,64 +1,47 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request
 from flask_mail import Mail, Message
-from flask import render_template_string
-import logging
+import os
 
 app = Flask(__name__)
-app.secret_key = '0944331587'
-
-# Configuration for Flask-Mail
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
+app.config['MAIL_USERNAME'] = 'mesoudtemam5@gmail.com'
+app.config['MAIL_PASSWORD'] = 'ivmu dnaz foos ivue'
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'mesoudtemam9@gmail.com'
-app.config['MAIL_PASSWORD'] = 'Muaz@123'
-app.config['MAIL_DEFAULT_SENDER'] = 'mesoudtemam9@gmail.com'
-
+app.config['MAIL_USE_SSL'] = False
 mail = Mail(app)
 
-# Setup logging
-logging.basicConfig(filename='app.log', level=logging.INFO)
+
+def get_reply_message(name, email, message):
+    return f"Hi Mesoud,\n\nYou've received a message from {name} ({email}):\n\n{message}\n\nBest regards,\nYour Flask App"
+
 
 @app.route('/submit_form', methods=['POST'])
-def submit_form():
-    try:
-        name = request.form['name']
-        email = request.form['email']
-        message = request.form['message']
-
-        # Validate email format
-        if not validate_email(email):
-            raise ValueError('Invalid email address')
-
-        # Send email to the user
-        user_msg = Message(subject='Thank You for Contacting Us!',
-                           recipients=[email],
-                           body=render_template_string('email_template.txt', name=name))
-
-        # Send email to your inbox
-        admin_msg = Message(subject='New Contact Form Submission',
-                            recipients=['mesoudtemam9@gmail.com'],
-                            body=f'Name: {name}\nEmail: {email}\nMessage: {message}')
-
+@app.route('/', methods=['GET', 'POST'])
+def submitform():
+    if request.method == 'POST':
+        # Retrieve data from the form
+        name = request.form.get('name')
+        email = request.form.get('email')
+        message = request.form.get('message')
+        
+        # Create a message object for the user
+        user_msg = Message("HEY", sender='mesoudtemam5@gmail.com', recipients=[email])
+        user_msg.body = f"Hi {name},\n\nThanks for reaching out! I've received your message and may be i will get back to you. In the meantime, keep calm and code on!\n\nBest regards,\nMesoud"
+        
+        # Send the email to the user
         mail.send(user_msg)
-        mail.send(admin_msg)
-        flash('Your message has been sent successfully!', 'success')
-        logging.info(f'Message sent successfully to {email}')
-    except Exception as e:
-        flash(f'An error occurred while sending the message: {str(e)}', 'error')
-        logging.error(f'Error occurred: {str(e)}')
 
-    return redirect(url_for('contact'))
+        # Create a message object for the sender
+        sender_msg = Message("New Message Received", sender='mesoudtemam5@gmail.com', recipients=['mesoudtemam5@gmail.com'])
+        sender_msg.body = get_reply_message(name, email, message)
+        
+        # Send the email to the sender
+        mail.send(sender_msg)
 
-@app.route('/contact')
-def contact():
+        return render_template('contact.html')
     return render_template('contact.html')
 
-def validate_email(email):
-    # Implement email validation logic
-    # You can use a library like email-validator or regex
-    # For simplicity, you can just check for the presence of '@'
-    return '@' in email
 
 if __name__ == "__main__":
     app.run(debug=True)

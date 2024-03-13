@@ -11,3 +11,135 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:21] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:38] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:41] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:41] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:41] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:41] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:41] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:56:41] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+ERROR:root:Error occurred: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials h10-20020a170906718a00b00a4658d3e405sm558338ejk.196 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:57:27] "[32mPOST /submit_form HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:57:28] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:57:28] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:57:28] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:57:28] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:57:28] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 02:57:28] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:36] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:39] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:39] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:39] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:39] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:39] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:39] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:45] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:45] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:45] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:45] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:45] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:08:45] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+ERROR:root:Error occurred: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials qk12-20020a170906d9cc00b00a433e8cfb7esm4762185ejb.64 - gsmtp')
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:09:33] "[32mPOST /submit_form HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:09:33] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:09:33] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:09:33] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:09:33] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:09:33] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:09:33] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:18:51] "[33mGET /templates/home.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:32:27] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:32:27] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:32:27] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:32:27] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:32:27] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:32:27] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:10] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:10] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:10] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:10] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:10] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:10] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:12] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:12] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:12] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:12] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:12] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:12] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:13] "GET /contact HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:13] "[33mGET /statics/css/contact.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:13] "[33mGET /statics/images/logo.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:13] "[33mGET /statics/images/insta%20(1).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:13] "[33mGET /statics/images/Unknown.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 03:33:13] "[33mGET /statics/images/discord.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 445-748-158
+INFO:werkzeug: * Detected change in "/Users/m1/Documents/mesoud's alx file/alx_capstone_project-9/capstone_project/app.py", reloading
+INFO:werkzeug: * Restarting with stat

@@ -1,12 +1,12 @@
 body {
-    background-image: url('');
+    background-image: url('../images/projects.webp');
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(255, 255, 255, 0.5); /* Set background color with transparency */
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -37,6 +37,10 @@ main {
     padding: 20px;
 }
 
+main h1 {
+    color: white;
+}
+
 #progress-projects {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +62,7 @@ main {
 }
 
 section {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5); /* Set background color with transparency */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -69,7 +73,7 @@ section h2 {
 }
 
 section p {
-    color: #666;
+    color: white;
 }
 
 section a {
@@ -78,7 +82,7 @@ section a {
 }
 
 footer {
-    background-color: #333;
+   
     color: #fff;
     text-align: center;
     padding: 10px;

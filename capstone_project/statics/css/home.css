@@ -5,7 +5,9 @@ body {
     background-position: center;
     color: #fff;
     padding: 10px;
+    transition: opacity 1s ease; /* Smooth transition */
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -31,7 +33,7 @@ header {
 main {
     font-style: italic;
     font-size: xx-large;
-    color: silver;
+    color: white;
 }
 footer {
     display: flex;

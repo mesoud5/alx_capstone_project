@@ -25,8 +25,8 @@ header {
     transition: transform 0.3s;
 }
 #upper-nav a:hover {
-    transform: scale(1.2);
-    color: palevioletred;
+    text-decoration-line: underline;
+    
 }
 main {
     font-style: italic;

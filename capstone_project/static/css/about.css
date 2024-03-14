@@ -97,4 +97,75 @@ footer {
     height: auto;
 }
 
+/* Styles for small mobile devices */
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+    header {
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    #upper-logo { 
+        width: 100px;
+    }
+    #upper-nav {
+        display: none;
+    }
 
+    main {
+        font-style: italic;
+        font-size: 100%;
+        color: silver;
+    }
+    footer {
+        display:inline;
+    
+        margin-top: 110px;  
+    }
+    
+    
+    #copy-right{
+        align-items: center;
+    }
+    
+    #foot {
+        margin-left: 0;
+        text-align: center;
+    }  
+    
+    #copy-right {
+        margin-bottom: auto; /* Pushes the second paragraph to the bottom */
+        color: gray;
+    }
+    
+    /* style for the main page*/
+    #main {
+        display: flex;
+        width: 100%;
+    }
+    
+    #content {
+        flex: 1;
+        padding: 20px;
+    
+        color: silver;
+    }
+    
+    
+    
+    #image {
+        max-width: 10%;
+        height: auto;
+    }
+}
+
+/* Styles for medium mobile devices */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+/* Styles for medium tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+}

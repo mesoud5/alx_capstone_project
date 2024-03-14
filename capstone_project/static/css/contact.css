@@ -149,3 +149,65 @@ footer {
     
 }
 
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Adjust as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: black;
+}
+
+.show {
+    display: flex !important;
+    flex-direction: column;
+    background-color: silver; 
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.show a {
+    margin: 10px 0;
+}
+
+/* Styles for small mobile devices */
+@media only screen and (max-width: 480px) {
+    #upper-nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+        /* Adjust message and form width */
+    #contact-message,
+    #contact-form {
+        width: 100%;
+    }
+    #contact-form {
+        margin-top: 20px;
+    }
+}
+/* Styles for meduim mobile devices */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    #upper-nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+    #contact-message,
+    #contact-form {
+        width: 100%;
+    }
+    #contact-form {
+        margin-top: 20px;
+    }
+}

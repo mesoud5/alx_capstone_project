@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const backgrounds = [
-        "url('../statics/images/Image 1.png')",
-        "url('../statics/images/projects.webp')",
-        "url('../statics/images/skills.jpeg')"
+        "url('../static/images/Image 1.png')",
+        "url('../static/images/projects.webp')",
+        "url('../static/images/skills.jpeg')"
         // Add more image paths as needed
     ];
 

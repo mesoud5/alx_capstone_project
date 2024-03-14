@@ -1,13 +1,12 @@
 body {
-    background-image: url('../images/Image\ 1.png');
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: #fff;
+    color: silver;
     padding: 10px;
-    transition: opacity 1s ease; /* Smooth transition */
+    
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -18,22 +17,21 @@ header {
 #upper-nav {
     display: flex;
     margin-bottom: 150px; 
-    font-size: xx-large; 
+    font-size: x-large; 
 }
 #upper-nav a {
     margin-left: 25px;
-    color: aliceblue;
+    color: gray;
     text-decoration: none;
     transition: transform 0.3s;
 }
 #upper-nav a:hover {
-    text-decoration-line: underline;
-    
+    text-decoration-line:underline;
 }
 main {
     font-style: italic;
     font-size: xx-large;
-    color: white;
+    color: silver;
 }
 footer {
     display: flex;
@@ -64,6 +62,7 @@ footer {
 
 #copy-right {
     margin-bottom: auto; /* Pushes the second paragraph to the bottom */
+    color: gray;
 }
 #insta {
     width: 29px;
@@ -77,3 +76,25 @@ footer {
     width: 29px;
     height: 29px; 
 }
+
+/* style for the main page*/
+#main {
+    display: flex;
+    width: 100%;
+}
+
+#content {
+    flex: 1;
+    padding: 20px;
+
+    color: silver;
+}
+
+
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+

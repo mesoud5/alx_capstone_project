@@ -11,13 +11,13 @@ body {
 /* Apply blur effect to article and aside */
 
 main aside {
-    background: rgba(255, 255, 255, 0.6); /* Adjust the opacity as needed */
-    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    background: rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(10px); 
     padding: 20px;
 }
 main article {
-    background: rgba(255, 255, 255, 0.6); /* Adjust the opacity as needed */
-    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    background: rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(10px); 
     padding: 20px;
 
 }

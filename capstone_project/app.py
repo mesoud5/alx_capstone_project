@@ -14,10 +14,8 @@ mail = Mail(app)
 
 def get_reply_message(name, email, message):
     return f"Hi Mesoud,\n\nYou've received a message from {name} ({email}):\n\n{message}\n\nBest regards,\nYour Flask App"
-
-
-@app.route('/submit_form', methods=['POST'])
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/submit_form', methods=['GET','POST'])
+#@app.route('/', methods=['GET', 'POST'])
 def submitform():
     if request.method == 'POST':
         # Retrieve data from the form
@@ -41,6 +39,23 @@ def submitform():
 
         return render_template('contact.html')
     return render_template('contact.html')
+
+
+
+
+@app.route('/')
+def home():
+    return render_template('home.html')
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+@app.route('/skills')
+def skills():
+    return render_template('skills.html')
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
 
 
 if __name__ == "__main__":

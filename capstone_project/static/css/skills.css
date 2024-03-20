@@ -2,7 +2,7 @@ body {
     background-image: url('../images/skills.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: scroll;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;

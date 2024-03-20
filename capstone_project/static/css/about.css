@@ -192,6 +192,15 @@ footer {
         width: 100%; /* Ensure image fits within container */
         height: 70vh;
     }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 275px;
+    }
+    #foot {
+        margin-left: 0;
+        text-align: center;
+    }
 }
 
 /* Styles for medium mobile devices */
@@ -217,6 +226,15 @@ footer {
         width: 100%; /* Ensure image fits within container */
         height: 70vh;
         
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 275px;
+    }
+    #foot {
+        margin-left: 0;
+        text-align: center;
     }
 }
 

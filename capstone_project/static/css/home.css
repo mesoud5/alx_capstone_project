@@ -1,8 +1,10 @@
 body {
+    width: 100%;
+    height: auto;
     background-image: url('../images/Image\ 1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center ;
     color: #fff;
     padding: 10px;
     transition: opacity 1s ease; /* Smooth transition */
@@ -21,6 +23,7 @@ header {
     font-size: x-large; 
 }
 #upper-nav a {
+    padding-right: 40px;
     margin-left: 25px;
     color: aliceblue;
     text-decoration: none;
@@ -108,7 +111,9 @@ footer {
 @media only screen and (max-width: 480px) {
     body {
         padding: 5px;
+        background-size: cover;
     }
+
     #upper-logo{
         width: 100px;
     }
@@ -141,6 +146,7 @@ footer {
 @media only screen and (min-width: 481px) and (max-width: 767px) {
     body {
         padding: 5px;
+
     }
     header {
         flex-direction: column;
@@ -159,7 +165,7 @@ footer {
     footer {
         flex-direction: column;
         align-items: center;
-        margin-top: 175px;
+        margin-top: 275px;
     }
     #foot {
         margin-left: 0;

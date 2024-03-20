@@ -15,7 +15,6 @@ mail = Mail(app)
 def get_reply_message(name, email, message):
     return f"Hi Mesoud,\n\nYou've received a message from {name} ({email}):\n\n{message}\n\nBest regards,\nYour Flask App"
 @app.route('/submit_form', methods=['GET','POST'])
-#@app.route('/', methods=['GET', 'POST'])
 def submitform():
     if request.method == 'POST':
         # Retrieve data from the form
@@ -24,7 +23,7 @@ def submitform():
         message = request.form.get('message')
         
         # Create a message object for the user
-        user_msg = Message("HEY", sender='mesoudtemam5@gmail.com', recipients=[email])
+        user_msg = Message("confirmation of submision", sender='mesoudtemam5@gmail.com', recipients=[email])
         user_msg.body = f"Hi {name},\n\nThanks for reaching out! I've received your message and may be i will get back to you. In the meantime, keep calm and code on!\n\nBest regards,\nMesoud"
         
         # Send the email to the user

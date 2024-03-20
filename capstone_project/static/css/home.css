@@ -68,18 +68,7 @@ footer {
 #copy-right {
     margin-bottom: auto; /* Pushes the second paragraph to the bottom */
 }
-#insta {
-    width: 29px;
-    height: 29px;
-}
-#linkedin {
-    width: 29px;
-    height: 29px;
-}
-#discord {
-    width: 29px;
-    height: 29px; 
-}
+
 /* Hamburger Menu */
 .hamburger-menu {
     display: none;
